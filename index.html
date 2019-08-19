@@ -190,7 +190,17 @@
                     <div class="project-info">
                         <h3>Relational Database Management System</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This is a database management system that supports basic SQL operations including Selection, 
+                            <br>Projections, Joins and Aggregate operations.
+                            The system consists of five key modules. The first module is page file manager, which handles data reading and writing. Every piece of data
+                            in this system is stored in database pages. A page is a basic unit of I/O operation. The size of one page is 1024 Bytes.
+                            The second module is record based manager, which handles the structure of a page. A page starts with a 96-byte header in which all system 
+                            information (the number of the page, the start of remaining free space, record) is stored. The third module is index manager, 
+                            which uses unclustered B+ balanced tree to create indexes for records. If most of the quries are related to certain attributes, then 
+                            we can create indexes for them to reduce query time. The forth module is relation manager, which extract the 
+                            information of the records that match a specific condition in a page. The fifth module is search engine. The engine is responsible for 
+                            extracting information of records that match several conditions simultaneously. It adopts many different join method like simplel
+                            nested loop join, block nested loop join and index nested loop join.
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -221,9 +231,9 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Java</li>
             <li>Python</li>
-            <li>Ruby</li>
             <li>Go</li>
             <li>Node.js</li>
             <li>AngularJs</li>
