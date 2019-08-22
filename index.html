@@ -184,31 +184,24 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/project.jpg"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Relational Database Management System</h3>
                         <p>
                             This is a database management system that supports basic SQL operations including 
-                            <br>Selection, Projections, Joins and Aggregate operations.The system consists of 
-                            <br>five key modules. The first module is page file manager, which handles data 
-                            <br>reading and writing. Every piece of data in this system is stored in 
-                            <br>database pages. A page is a basic unit of I/O operation. The size of one page 
-                            <br>is 1024 Bytes. The second module is record based manager, which handles the 
-                            <br>structure of a page. A page starts with a 96-byte header in which all system 
-                            <br>information (the number of the page, the start of remaining free space, 
-                            <br>record) is stored. The third module is index manager, which uses unclustered 
-                            <br>B+ balanced tree to create indexes for records. If most of the quries are 
-                            <br>related to certain attributes, then we can create indexes for them to reduce 
-                            <br>query time. The forth module is relation manager, which extract the 
-                            <br>information of the records that match a specific condition in a page. The 
-                            <br>fifth module is search engine. The engine is responsible for extracting 
-                            <br>information of records that match several conditions simultaneously. It 
-                            <br>adopts many different join method like simplel nested loop join, block 
-                            <br>nested loop join and index nested loop join.
+                            Selection, Projections, Joins and Aggregate operations.The system consists of 
+                            five key modules. The first module is page file manager, which handles data 
+                            reading and writing. Every piece of data in this system is stored in 
+                            database pages. The second module is record based manager, which handles the 
+                            structure of a page. The third module is index manager, which uses unclustered 
+                            B+ balanced tree to create indexes for records. The forth module is relation manager, which extracts the 
+                            information of the records that match a specific condition in a page. 
+                            The fifth module is search engine. The engine is responsible for extracting 
+                            information of records that match several conditions simultaneously. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/nuslarry/cs211-RDBM">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -220,14 +213,40 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Web Chat Application</h3>
+                        <h3>Chat++</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Chat++ is a web chat application written in node js. I used express.js 
+                            to build my node js web server. And I used Socket.io library to support 
+                            real-time bi-directional communication between web clients and server. 
+                            A user can join a specific chat room and send message and his/her current 
+                            location to other users in that chatroom. The data stored in this app 
+                            is non-persistent, which means that it is not available after fully 
+                            closing the application. I used Jest testing framework to perform 
+                            unit tests to ensure the correctness of my chat app.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://mead-node-chatapp.herokuapp.com/">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
+                <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/calendar.png" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Calendar Desktop Application</h3>
+                            <p>
+                                This is a calendar desktop application written in Java and is the final team project of CS2103: 
+                                Software Engineering (National University of Singapore). It supports agenda planning with 
+                                functionalities including ranked by priority, recurring event and customized search. I implemented 
+                                the user interface with JavaFX, which is a MVC UI framework.I was also responsible for creating unit 
+                                tests for the application and continuous integration with Travis CI. I increased the test coverage form
+                                70% to 90%.
+                            </p>
+                            <a href="https://github.com/CS2103JAN2017-T11-B3/main">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
                 <!-- End .project -->
             </div>
         </div>
@@ -238,31 +257,23 @@
         <h2 class="heading">Skills</h2>
         <ul>
             <li>C++</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
             <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Node.js</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Groovy</li>
+            <li>MATLAB</li>
+            <li>HTML</li>
+            <li>Jenkins</li>
+            <li>Git</li>
+            <li>GDB</li>
+            <li>Eclipse</li>
+            <li>Linux</li>
+            <li>Qt</li>
+            <li>GTest</li>
+            <li>Jest<li>
+
         </ul>
     </div>
     <!-- End #skills -->
@@ -295,22 +306,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/nuslarry" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/cheng-liang-yu-3b8171141/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://nuslarry.github.io/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
